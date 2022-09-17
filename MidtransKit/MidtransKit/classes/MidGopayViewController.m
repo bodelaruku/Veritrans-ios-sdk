@@ -80,7 +80,7 @@
         self.view.topNoticeLabel.text = [VTClassHelper getTranslationFromAppBundleForString:@"Please complete your ‘GoPay‘ payment via ‘Gojek‘ app"];
     } else {
         if (MidtransConfig.shared.environment == MidtransServerEnvironmentProduction) {
-            NSURL *gojekUrl = [NSURL URLWithString:MIDTRANS_GOPAY_PREFIX_OLD];
+            NSURL *gojekUrl = [NSURL URLWithString:MIDTRANS_GOPAY_PREFIX_NEW];
             if ([[UIApplication sharedApplication] canOpenURL:gojekUrl]) {
                 self.view.gopayTopViewHeightConstraints.constant = 0.0f;
                 self.view.topWrapperView.hidden = YES;
