@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
-s.name             = "MidtransKit"
-s.version          = "1.22.0"
-s.summary          = "Veritrans mobile SDK beta version"
+s.name             = "MidtransKitBode"
+s.version          = "1.1.0"
+s.summary          = "Veritrans mobile SDK beta version bode"
 s.homepage         = "https://veritrans.co.id/"
 s.license          = 'MIT'
-s.author           = { "veritrans" => "dev@veritrans.co.id" }
-s.source           = { :git => 'https://github.com/veritrans/Veritrans-ios-sdk.git', :tag => s.version}
+s.author           = { "bode" => "dedeprayitno241192@gmail.com" }
+s.source           = { :git => 'https://github.com/bodelaruku/Veritrans-ios-sdk.git', :tag => s.version}
 s.platform     = :ios, '9.0'
 s.requires_arc = true
 
